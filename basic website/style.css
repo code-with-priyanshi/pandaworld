@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body {
+    font-family: 'Adamina', serif;
+}
+}
+
+body {
+    background: #fff;
+    color: #000000;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-logo {
+    height: 40px;        
+    width: auto;}
+
+.nav-center {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 25px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    gap: 20px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    min-height: 565px;
+    padding: 0px;
+    background: #f7dce1;
+}
+
+.hero-img {
+    width: 50%;
+    background: url(images/hero.png) center/cover;
+    border-radius: 0px;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 80px;
+
+}
+
+.hero-text h1 {
+    font-size: 50px;     
+    font-weight: 400;
+    padding: 20x 0px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.hero-text button {
+    padding: 14px 55px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 15px;
+    
+}
+
+
+
+/* ABOUT */
+
+.about {
+    background: #ffffff;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.about-icon {
+    width: 60px;    
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;      
+    margin: 0 auto 40px auto;
+}
+
+.about-btn {
+    padding: 14px 40px;
+    background: #f7dce1;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+
+
+/* BEST SELLERS */
+
+.best-sellers {
+    background: #f3d8dd;
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.best-sellers .subtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.best-sellers h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.product-card {
+    max-width: 300px;
+}
+
+.product-img {
+    width: 280px;          
+    height: 280px;        
+    object-fit: cover;    
+    margin-bottom: 20px;
+}
+
+.product-card h3 {
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+
+.product-card .tagline {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+.shop-btn {
+    background: white;
+    padding: 12px 35px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background: #eee;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+    gap: 50px;
+    position: relative;
+}
+
+.testimonial-content {
+    text-align: center;
+    max-width: 900px;
+}
+
+.testimonial h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.client-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.quote {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ARROW BUTTONS */
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #f5dce2;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow:hover {
+    background: #eac3cb;
+}
+
+.left {
+    position: absolute;
+    left: 120px;  
+}
+
+.right {
+    position: absolute;
+    right: 120px;
+}
+
+/* CONTACT */
+
+.contact {
+    background: #f3d8dd;
+    padding: 80px 80px;
+}
+
+.contact h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-subtext {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact-item {
+    max-width: 300px;
+}
+
+.contact-item h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+}
